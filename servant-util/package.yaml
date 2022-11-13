@@ -46,16 +46,16 @@ library:
 
 <<: *ghc-options
 
-executables:
-  servant-util-examples:
-    <<: *exec-common
-    source-dirs:         examples
+#executables:
+#  servant-util-examples:
+#    <<: *exec-common
+#    source-dirs:         examples
 
-    dependencies:
-      - aeson
-      - servant-util
-      - warp
-      - wai-extra
+#    dependencies:
+#      - aeson
+#      - servant-util
+#      - warp
+#      - wai-extra
 
 tests:
   servant-util-test:
